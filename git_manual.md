@@ -8,6 +8,6 @@
 6. sudo git init	//create a new git repository
 7. vi README	//create a new file which you will add to repository
 8. sudo git commit -m "explanation of this file" //step of comfirmation by using command 'commit'
-9. git log	//confirm changed log
-10. git remote add origin remoteserveraddress	//let git know where remoteserveraddress is
-11. git push origin master //update to github repository
+9. sudo git log	//confirm changed log
+10. sudo git remote add origin remoteserveraddress	//let git know where the remote server address is ex) sudo git remote add origin https://github.com/SongKJ00/How-to-use-Git.git
+11. sudo git push origin master //update your file to github repository
